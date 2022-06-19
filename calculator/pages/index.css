@@ -2,7 +2,7 @@
 
 @import url(../blocks/calc/calc.css);
 @import url(../blocks/calc/__title/calc__title.css);
-@import url(../blocks/calc/__subtitle/calc-field__title.css);
+@import url(../blocks/calc/__subtitle/calc__subtitle.css);
 @import url(../blocks/calc/__subtitle/_theme/calc-field__title_theme_white.css);
 
 @import url(../blocks/calc-field/calc-field.css);
@@ -28,11 +28,17 @@
 @import url(../blocks/pseudo-item/_type/pseudo-item_type_roof-color.css);
 @import url(../blocks/pseudo-item/__image/pseudo-item__image.css);
 @import url(../blocks/pseudo-item/__image/_theme/pseudo-item__image_theme_white.css);
+@import url(../blocks/pseudo-item/__image/_type/pseudo-item__image_type_length.css);
+@import url(../blocks/pseudo-item/__image/_type/pseudo-item__image_type_installation.css);
 @import url(../blocks/pseudo-item/__overlay/pseudo-item__overlay.css);
 @import url(../blocks/pseudo-item/__overlay/_theme/pseudo-item__overlay_theme_white.css);
+@import url(../blocks/pseudo-item/__overlay/_type/pseudo-item__overlay_type_installation.css);
 @import url(../blocks/pseudo-item/__title/pseudo-item__title.css);
 @import url(../blocks/pseudo-item/__title/_theme/pseudo-item__title_theme_white.css);
 @import url(../blocks/pseudo-item/__cost/pseudo-item__cost.css);
 @import url(../blocks/pseudo-item/__cost/_theme/pseudo-item__cost_theme_white.css);
+@import url(../blocks/pseudo-item/__cost/_remove/pseudo-item__cost_remove.css);
+@import url(../blocks/pseudo-item/__cost-top/pseudo-item__cost-top.css);
+@import url(../blocks/pseudo-item/__cost-top-text/pseudo-item__cost-top-text.css);
 
 @import url(../blocks/text/__gradient/text__gradient.css);

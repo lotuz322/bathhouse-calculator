@@ -3,3 +3,10 @@
     font-size: 36px;
     line-height: 46px;
 }
+
+@media screen and (max-width: 1000px) {
+    .calc__title {
+        font-size: 20px;
+        margin: 0;
+    }
+}

@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="pages/index.css" rel="stylesheet">
 </head>
 <body style="margin: 0">
     <main>
         <form class="calc">
-            <h2 class="calc__title text__gradient">Калькулятор бани</h2>
+            <h2 class="calc__title text__gradient">РАССЧИТАЙТЕ СТОИМОСТЬ ВАШЕЙ БАНИ!</h2>
             <!--форма-->
-            <h3 class="calc__subtitle text__gradient calc-field__title_theme_white ">Какая форма бани вам нужна?</h3>
+            <h3 class="calc__subtitle text__gradient calc-field__title_theme_white ">ФОРМА БАНИ</h3>
             <div class="calc-field calc-field_type_shape">
                 <label for="shape-circle">
                     <input class="calc-field__item" type="radio" id="shape-circle" name="shape" value="circle" checked>
@@ -33,55 +34,55 @@
             </div>
 
             <!--длина-->
-            <h3 class="calc__subtitle text__gradient calc-field__title_theme_white">Какая длина бани вам нужна?</h3>
+            <h3 class="calc__subtitle text__gradient calc-field__title_theme_white">ДЛИНА БАНИ</h3>
             <div class="calc-field calc-field_type_length">
                 <label for="length-2">
                     <input class="calc-field__item" type="radio" id="length-2" name="length" value="2" checked>
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                        <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/2kvadro.png">
+                        <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                             <p class="pseudo-item__title text__gradient">2 метра</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_theme_white">0₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_theme_white">160.000₽</p>
                         </div>
                     </span>
                 </label>
                 <label for="length-3">
                     <input class="calc-field__item" type="radio" id="length-3" name="length" value="3">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                    <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/2kvadro.png">
+                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
                     <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                         <p class="pseudo-item__title text__gradient">3 метра</p>
-                        <p class="pseudo-item__cost">0₽</p>
+                        <p class="pseudo-item__cost pseudo-item__cost_theme_white">235.000₽</p>
                     </div>
                 </span>
                 </label>
                 <label for="length-4">
                     <input class="calc-field__item" type="radio" id="length-4" name="length" value="4">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                    <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/2kvadro.png">
+                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
                     <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                         <p class="pseudo-item__title text__gradient">4 метра</p>
-                        <p class="pseudo-item__cost">0₽</p>
+                        <p class="pseudo-item__cost pseudo-item__cost_theme_white">260.000₽</p>
                     </div>
                 </span>
                 </label>
                 <label for="length-5">
                     <input class="calc-field__item" type="radio" id="length-5" name="length" value="5">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                    <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/2kvadro.png">
+                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
                     <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                         <p class="pseudo-item__title text__gradient">5 метров</p>
-                        <p class="pseudo-item__cost">0₽</p>
+                        <p class="pseudo-item__cost pseudo-item__cost_theme_white">310.000₽</p>
                     </div>
                 </span>
                 </label>
                 <label for="length-6">
                     <input class="calc-field__item" type="radio" id="length-6" name="length" value="6">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                        <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/2kvadro.png">
+                        <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                             <p class="pseudo-item__title text__gradient">6 метров</p>
-                            <p class="pseudo-item__cost">0₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_theme_white">320.000₽</p>
                         </div>
                     </span>
                 </label>
@@ -89,13 +90,13 @@
             </div>
 
             <!--вариант установки-->
-            <h3 class="calc__subtitle">Какой вариант установки?</h3>
+            <h3 class="calc__subtitle">ВАРИАНТ УСТАНОВКИ</h3>
             <div class="calc-field">
                 <label for="installation-in-place">
                     <input class="calc-field__item" type="radio" id="installation-in-place" name="installation" value="in-place" checked>
                     <span class="pseudo-item pseudo-item_type_installation">
-                        <img class="pseudo-item__image" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay">
+                        <img class="pseudo-item__image pseudo-item__image_type_installation" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_installation">
                             <p class="pseudo-item__title">СБОРКА НА УЧАСТКЕ</p>
                             <p class="pseudo-item__cost">0₽</p>
                         </div>
@@ -104,8 +105,8 @@
                 <label for="installation-collected">
                     <input class="calc-field__item" type="radio" id="installation-collected" name="installation" value="collected">
                     <span class="pseudo-item pseudo-item_type_installation">
-                    <img class="pseudo-item__image" src="images/2kvadro.png">
-                    <div class="pseudo-item__overlay">
+                    <img class="pseudo-item__image pseudo-item__image_type_installation" src="images/2kvadro.png">
+                    <div class="pseudo-item__overlay pseudo-item__overlay_type_installation">
                         <p class="pseudo-item__title">ДОСТАВКА В ГОТОВОМ ВИДЕ</p>
                         <p class="pseudo-item__cost">5.000₽</p>
                     </div>
@@ -114,182 +115,227 @@
             </div>
 
             <!--вариант входа-->
-            <h3 class="calc__subtitle">Какой вариант входа?</h3>
+            <h3 class="calc__subtitle">ВАРИАНТ ВХОДА</h3>
             <div class="calc-field">
                 <label for="entry-from-end">
                     <input class="calc-field__item" type="radio" id="entry-from-end" name="entry" value="from-end" checked>
                     <span class="pseudo-item pseudo-item_type_entry">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">СБОКУ</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">БЕСПЛАТНО</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">СБОКУ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">0₽</p>
+                        </div>
+                    </span>
                 </label>
                 <label for="entry-from-side">
                     <input class="calc-field__item" type="radio" id="entry-from-side" name="entry" value="from-side">
                     <span class="pseudo-item pseudo-item_type_entry">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">С ТОРЦА</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">БЕСПЛАТНО</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">С ТОРЦА</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">0₽</p>
+                        </div>
+                    </span>
                 </label>
             </div>
 
             <!--вариант Топки печи-->
-            <h3 class="calc__subtitle">Какой вариант Топки печи?</h3>
+            <h3 class="calc__subtitle">ВАРИАНТ ТОПКИ ПЕЧИ</h3>
             <div class="calc-field">
                 <label for="oven-in-steam-room">
                     <input class="calc-field__item" type="radio" id="oven-in-steam-room" name="oven-type" value="in-steam-room" checked>
                     <span class="pseudo-item pseudo-item_type_oven-type">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">В ПАРНОЙ</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">Бесплано</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">В ПАРНОЙ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплано</p>
+                        </div>
+                    </span>
                 </label>
                 <label for="oven-from-street">
                     <input class="calc-field__item" type="radio" id="oven-from-street" name="oven-type" value="from-street">
                     <span class="pseudo-item pseudo-item_type_oven-type">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">С УЛИЦЫ</p>
-                                <p class="pseudo-item__cost">5.000₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">5.000₽</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">С УЛИЦЫ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">5.000₽</p>
+                        </div>
+                    </span>
                 </label>
                 <label for="oven-from-waiting-room">
                     <input class="calc-field__item" type="radio" id="oven-from-waiting-room" name="oven-type" value="from-waiting-room">
                     <span class="pseudo-item pseudo-item_type_oven-type">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">ИЗ ПРЕДБАННИКА</p>
-                                <p class="pseudo-item__cost">5.000₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">5.000₽</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">ИЗ ПРЕДБАННИКА</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">5.000₽</p>
+                        </div>
+                    </span>
                 </label>
             </div>
 
             <!--Печь-->
-            <h3 class="calc__subtitle">Какая Печь вам нужна?</h3>
+            <h3 class="calc__subtitle">ВАРИАНТ ПЕЧИ</h3>
             <div class="calc-field">
                 <label for="oven-KENNET">
                     <input class="calc-field__item" type="radio" id="oven-KENNET" name="oven" value="KENNET" checked>
                     <span class="pseudo-item pseudo-item_type_oven">
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay">
                             <p class="pseudo-item__title">KENNET</p>
-                            <p class="pseudo-item__cost">0₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
                         </div>
                     </span>
                 </label>
                 <label for="oven-DUBRAVA">
                     <input class="calc-field__item" type="radio" id="oven-DUBRAVA" name="oven" value="DUBRAVA">
                     <span class="pseudo-item pseudo-item_type_oven">
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">20.000₽</p>
+                        </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay">
                             <p class="pseudo-item__title">DUBRAVA</p>
-                            <p class="pseudo-item__cost">20.000₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">20.000₽</p>
                         </div>
                     </span>
                 </label>
                 <label for="oven-VEZUVI">
                     <input class="calc-field__item" type="radio" id="oven-VEZUVI" name="oven" value="VEZUVI">
                     <span class="pseudo-item pseudo-item_type_oven">
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">20.000₽</p>
+                        </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay">
                             <p class="pseudo-item__title">ВЕЗУВИЙ</p>
-                            <p class="pseudo-item__cost">20.000₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">20.000₽</p>
                         </div>
                     </span>
                 </label>
                 <label for="oven-COMETA">
                     <input class="calc-field__item" type="radio" id="oven-COMETA" name="oven" value="COMETA">
                     <span class="pseudo-item pseudo-item_type_oven">
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">25.000₽</p>
+                        </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay">
                             <p class="pseudo-item__title">COMETA</p>
-                            <p class="pseudo-item__cost">25.000₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">25.000₽</p>
                         </div>
                     </span>
                 </label>
             </div>
 
             <!--оснащение-->
-            <h3 class="calc__subtitle">Какое оснащение вам нужно?</h3>
+            <h3 class="calc__subtitle">ОСНАЩЕНИЕ БАНИ</h3>
             <div class="calc-field">
                 <label for="equipment-door">
                     <input class="calc-field__item" type="checkbox" id="equipment-door" name="equipment" value="door" checked>
                     <span class="pseudo-item pseud-item_type_equipment">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">СТЕКЛЯННАЯ ДВЕРЬ</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">СТЕКЛЯННАЯ ДВЕРЬ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        </div>
+                    </span>
                 </label>
                 <label for="equipment-tank">
                     <input class="calc-field__item" type="checkbox" id="equipment-tank" name="equipment" value="tank">
                     <span class="pseudo-item pseud-item_type_equipment">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">БАК ДЛЯ ГОР ВОДЫ</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">БАК ДЛЯ ГОР ВОДЫ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        </div>
+                    </span>
                 </label>
                 <label for="equipment-shelves">
                     <input class="calc-field__item" type="checkbox" id="equipment-shelves" name="equipment" value="shelves">
                     <span class="pseudo-item pseud-item_type_equipment">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">ВЫСОКИЙ ПОЛОК</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">ВЫСОКИЙ ПОЛОК</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        </div>
+                    </span>
                 </label>
                 <label for="equipment-table">
                     <input class="calc-field__item" type="checkbox" id="equipment-table" name="equipment" value="table">
                     <span class="pseudo-item pseud-item_type_equipment">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">ОТКИДНОЙ СТОЛ</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">ОТКИДНОЙ СТОЛ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        </div>
+                    </span>
                 </label>
             </div>
 
             <!--фундамент-->
-            <h3 class="calc__subtitle">Какое фундамент вам нужен?</h3>
+            <h3 class="calc__subtitle">ФУНДАМЕНТ БАНИ</h3>
             <div class="calc-field">
                 <label for="foundation-blocks">
                     <input class="calc-field__item" type="radio" id="foundation-blocks" name="foundation" value="blocks" checked>
                     <span class="pseudo-item pseudo-item_type_foundation">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">БЛОКИ</p>
-                                <p class="pseudo-item__cost">0₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">БЛОКИ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        </div>
+                    </span>
                 </label>
                 <label for="foundation-piles">
                     <input class="calc-field__item" type="radio" id="foundation-piles" name="foundation" value="piles">
                     <span class="pseudo-item pseudo-item_type_foundation">
-                            <img class="pseudo-item__image" src="images/2kvadro.png">
-                            <div class="pseudo-item__overlay">
-                                <p class="pseudo-item__title">СВАИ</p>
-                                <p class="pseudo-item__cost">35.000₽</p>
-                            </div>
-                        </span>
+                        <div class="pseudo-item__cost-top">
+                            <p class="text__gradient pseudo-item__cost-top-text">35.000₽</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay">
+                            <p class="pseudo-item__title">СВАИ</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">35.000₽</p>
+                        </div>
+                    </span>
                 </label>
             </div>
 
             <!--цвет корпуса-->
-            <h3 class="calc__subtitle">Какой цвет корпуса вам нужен?</h3>
+            <h3 class="calc__subtitle">ЦВЕТ КОРПУСА</h3>
             <div class="calc-field">
                 <label for="body-color-5057">
                     <input class="calc-field__item" type="radio" id="body-color-5057" name="body-color" value="5057" checked>
@@ -343,7 +389,7 @@
             <a class="calc-field__link" href="#">ПАЛИТРА ТИКУРИЛЛА 80 ЦВЕТОВ</a>
 
             <!--цвет кровли-->
-            <h3 class="calc__subtitle">Какой цвет кровли вам нужен?</h3>
+            <h3 class="calc__subtitle">ЦВЕТ КРОВЛИ</h3>
             <div class="calc-field">
                 <label for="roof-color-red">
                     <input class="calc-field__item" type="radio" id="roof-color-red" name="roof-color" value="red" checked>

@@ -13,3 +13,13 @@
     border: 3px solid transparent;
 
 }
+
+@media screen and (max-width: 1000px) {
+    .calc-field__item:checked + .pseudo-item {
+        background:
+                linear-gradient(#ffffff, #ffffff, #fff) padding-box, /*this is your grey background*/
+                linear-gradient(to right, #FF9900, #FAFF00) border-box;
+        border: 2px solid transparent;
+
+    }
+}

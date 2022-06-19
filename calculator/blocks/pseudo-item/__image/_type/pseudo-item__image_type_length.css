@@ -1,0 +1,6 @@
+@media screen and (max-width: 1000px) {
+    .pseudo-item__image_type_length {
+        height: 54px;
+        width: 75px;
+    }
+}

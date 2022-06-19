@@ -1,5 +1,5 @@
 .pseudo-item {
-    display: inline-block;
+    display: block;
     position: relative;
     width: 300px;
     height: 210px;
@@ -24,4 +24,10 @@
 
 .pseudo-item:hover:before {
     opacity: 0.5;
+}
+
+@media screen and (max-width: 1000px) {
+    .pseudo-item {
+        border-radius: 15px;
+    }
 }
