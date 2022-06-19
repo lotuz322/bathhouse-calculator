@@ -1,0 +1,6 @@
+@media screen and (max-width: 1000px){
+    .calc-field_type_shape {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

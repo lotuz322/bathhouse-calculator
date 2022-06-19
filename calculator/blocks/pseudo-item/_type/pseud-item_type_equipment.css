@@ -1,0 +1,11 @@
+.pseud-item_type_equipment {
+    height: 130px;
+    width: 215px;
+}
+
+@media screen and (max-width: 1000px) {
+    .pseud-item_type_equipment {
+        width: 146px;
+        height: 100px;
+    }
+}

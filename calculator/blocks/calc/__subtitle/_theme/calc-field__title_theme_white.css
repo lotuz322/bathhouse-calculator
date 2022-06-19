@@ -1,0 +1,9 @@
+.calc-field__title_theme_white {
+    border-radius: 30px;
+    box-shadow: 10px 7px 40px rgba(0, 0, 0, 0.25);
+    border: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

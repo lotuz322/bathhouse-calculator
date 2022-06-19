@@ -1,0 +1,11 @@
+.pseudo-item_type_oven {
+    height: 150px;
+    width: 215px;
+}
+
+@media screen and (max-width: 1000px) {
+    .pseudo-item_type_oven {
+        width: 146px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,12 @@
+.pseudo-item_type_roof-color {
+    height: 87px;
+    width: 87px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .pseudo-item_type_roof-color {
+        height: 64px;
+        width: 64px;
+    }
+}

@@ -1,0 +1,9 @@
+.calc-field_type_length {
+    gap: 32px;
+}
+
+@media screen and (max-width: 1000px) {
+    .calc-field_type_length {
+
+    }
+}

@@ -1,0 +1,11 @@
+.pseudo-item_type_shape {
+    width: 470px;
+    height: 250px;
+}
+
+@media screen and (max-width: 1000px) {
+    .pseudo-item_type_shape {
+        width: 210px;
+        height: 140px;
+    }
+}

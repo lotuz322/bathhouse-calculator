@@ -1,0 +1,7 @@
+.calc {
+    font-family: "Futura", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 380px;
+}

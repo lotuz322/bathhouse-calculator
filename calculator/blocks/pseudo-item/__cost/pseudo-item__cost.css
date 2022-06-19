@@ -1,0 +1,9 @@
+.pseudo-item__cost {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0 0 5px 0;
+    color: white;
+    text-align: center;
+}

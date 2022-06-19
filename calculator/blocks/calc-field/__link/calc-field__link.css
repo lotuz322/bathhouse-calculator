@@ -1,0 +1,12 @@
+.calc-field__link {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.28;
+    box-shadow: 10px 7px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+}

@@ -1,0 +1,12 @@
+.pseudo-item_type_length {
+    width: 170px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+    .pseudo-item_type_length {
+        width: 150px;
+        height: 60px;
+        border-radius: 15px;
+    }
+}

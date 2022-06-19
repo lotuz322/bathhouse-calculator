@@ -1,0 +1,13 @@
+.calc-field {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px){
+    .calc-field {
+        margin: 0 20px;
+        gap: 18px;
+    }
+}

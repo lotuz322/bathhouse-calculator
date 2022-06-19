@@ -1,0 +1,38 @@
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/calc/calc.css);
+@import url(../blocks/calc/__title/calc__title.css);
+@import url(../blocks/calc/__subtitle/calc-field__title.css);
+@import url(../blocks/calc/__subtitle/_theme/calc-field__title_theme_white.css);
+
+@import url(../blocks/calc-field/calc-field.css);
+@import url(../blocks/calc-field/_type/calc-field_type_shape.css);
+@import url(../blocks/calc-field/_type/calc-field_type_length.css);
+
+@import url(../blocks/calc-field/__item/calc-field__item.css);
+@import url(../blocks/calc-field/__container/calc-field__container.css);
+@import url(../blocks/calc-field/__container/_gap_32/calc-field__container_gap_32.css);
+@import url(../blocks/calc-field/__link/calc-field__link.css);
+@import url(../blocks/calc-field/__submit/calc-field__submit.css);
+
+@import url(../blocks/pseudo-item/pseudo-item.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_shape.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_length.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_installation.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_entry.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_oven-type.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_oven.css);
+@import url(../blocks/pseudo-item/_type/pseud-item_type_equipment.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_foundation.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_body-color.css);
+@import url(../blocks/pseudo-item/_type/pseudo-item_type_roof-color.css);
+@import url(../blocks/pseudo-item/__image/pseudo-item__image.css);
+@import url(../blocks/pseudo-item/__image/_theme/pseudo-item__image_theme_white.css);
+@import url(../blocks/pseudo-item/__overlay/pseudo-item__overlay.css);
+@import url(../blocks/pseudo-item/__overlay/_theme/pseudo-item__overlay_theme_white.css);
+@import url(../blocks/pseudo-item/__title/pseudo-item__title.css);
+@import url(../blocks/pseudo-item/__title/_theme/pseudo-item__title_theme_white.css);
+@import url(../blocks/pseudo-item/__cost/pseudo-item__cost.css);
+@import url(../blocks/pseudo-item/__cost/_theme/pseudo-item__cost_theme_white.css);
+
+@import url(../blocks/text/__gradient/text__gradient.css);

@@ -1,0 +1,16 @@
+.calc-field__submit {
+    display: block;
+    background: linear-gradient(180deg, #231919 0%, #FFD600 0.01%, #FF7A00 100%);
+    border-radius: 50px;
+    height: 55px;
+    width: 500px;
+    font-size: 36px;
+    line-height: 1.28;
+    color: white;
+    margin: 55px auto;
+    padding: 0 15px 0 15px;
+    border: 0;
+    font-style: normal;
+    font-family: "Futura", Arial, sans-serif;
+    font-weight: 300;
+}

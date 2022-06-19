@@ -1,0 +1,4 @@
+.pseudo-item__image_theme_white {
+    height: calc(100% - 60px);
+    object-fit: contain;
+}
