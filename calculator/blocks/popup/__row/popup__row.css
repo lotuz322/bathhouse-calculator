@@ -1,11 +1,13 @@
 .popup__row {
+    font-weight: 300;
     display: flex;
     align-items: center;
     margin: 0;
     border-bottom: 1px solid #D8D8D8;
 }
 
-.popup__row:nth-child(4n + 2) {
+.popup__row:nth-child(-4n+34) {
+    font-weight: 500;
     padding-left: 10px;
     margin-right: 16px;
 }
@@ -14,5 +16,10 @@
 }
 
 .popup__row:nth-child(4n) {
+    margin-left: 16px;
+}
+.popup__row:last-child {
+    min-height: 40px;
+    height: 100%;
     margin-left: 16px;
 }

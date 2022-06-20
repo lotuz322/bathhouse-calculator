@@ -1,0 +1,9 @@
+@media screen and (min-width: 1001px) {
+    .pseudo-item__cost-top-text_type_equipment {
+        color: black;
+        font-size: 20px;
+        background: none;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
+    }
+}

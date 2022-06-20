@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="pages/index.css" rel="stylesheet">
 </head>
-<body style="margin: 0">
+<body style="margin: 0;">
     <main>
-        <form class="calc" name="calc">
+        <form class="calc fonts_calc" name="calc">
             <h2 class="calc__title text__gradient">РАССЧИТАЙТЕ СТОИМОСТЬ ВАШЕЙ БАНИ!</h2>
             <!--форма-->
             <h3 class="calc__subtitle text__gradient calc-field__title_theme_white ">ФОРМА БАНИ</h3>
@@ -126,7 +126,7 @@
                         <img class="pseudo-item__image" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay">
                             <p class="pseudo-item__title">СБОКУ</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">0₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">БЕСПЛАТНО</p>
                         </div>
                     </span>
                 </label>
@@ -139,7 +139,7 @@
                         <img class="pseudo-item__image" src="images/2kvadro.png">
                         <div class="pseudo-item__overlay">
                             <p class="pseudo-item__title">С ТОРЦА</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">0₽</p>
+                            <p class="pseudo-item__cost pseudo-item__cost_remove">БЕСПЛАТНО</p>
                         </div>
                     </span>
                 </label>
@@ -252,55 +252,100 @@
                 <label for="equipment-door">
                     <input class="calc-field__item" type="checkbox" id="equipment-door" name="equipment" value="door" checked>
                     <span class="pseudo-item pseud-item_type_equipment">
-                        <div class="pseudo-item__cost-top">
-                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class=" pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">Бесплатно</p>
                         </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay">
-                            <p class="pseudo-item__title">СТЕКЛЯННАЯ ДВЕРЬ</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">СТЕКЛЯННАЯ ДВЕРЬ</p>
                         </div>
                     </span>
                 </label>
                 <label for="equipment-tank">
-                    <input class="calc-field__item" type="checkbox" id="equipment-tank" name="equipment" value="tank">
+                    <input class="calc-field__item" type="checkbox" id="equipment-tank" name="equipment" value="tank" checked>
                     <span class="pseudo-item pseud-item_type_equipment">
-                        <div class="pseudo-item__cost-top">
-                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class=" pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">Бесплатно</p>
                         </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay">
-                            <p class="pseudo-item__title">БАК ДЛЯ ГОР ВОДЫ</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">БАК ДЛЯ ГОР ВОДЫ</p>
                         </div>
                     </span>
                 </label>
                 <label for="equipment-shelves">
-                    <input class="calc-field__item" type="checkbox" id="equipment-shelves" name="equipment" value="shelves">
+                    <input class="calc-field__item" type="checkbox" id="equipment-shelves" name="equipment" value="shelves" checked>
                     <span class="pseudo-item pseud-item_type_equipment">
-                        <div class="pseudo-item__cost-top">
-                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class=" pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">Бесплатно</p>
                         </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay">
-                            <p class="pseudo-item__title">ВЫСОКИЙ ПОЛОК</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">ВЫСОКИЙ ПОЛОК</p>
                         </div>
                     </span>
                 </label>
                 <label for="equipment-table">
-                    <input class="calc-field__item" type="checkbox" id="equipment-table" name="equipment" value="table">
+                    <input class="calc-field__item" type="checkbox" id="equipment-table" name="equipment" value="table" checked>
                     <span class="pseudo-item pseud-item_type_equipment">
-                        <div class="pseudo-item__cost-top">
-                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class=" pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">Бесплатно</p>
                         </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay">
-                            <p class="pseudo-item__title">ОТКИДНОЙ СТОЛ</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">ОТКИДНОЙ СТОЛ</p>
                         </div>
                     </span>
                 </label>
+                <label for="equipment-steps">
+                    <input class="calc-field__item" type="checkbox" id="equipment-steps" name="equipment" value="steps">
+                    <span class="pseudo-item pseud-item_type_equipment">
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class=" pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">2.500₽</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">СТУПЕНИ</p>
+                        </div>
+                    </span>
+                </label>
+                <label for="equipment-box">
+                    <input class="calc-field__item" type="checkbox" id="equipment-box" name="equipment" value="box" checked>
+                    <span class="pseudo-item pseud-item_type_equipment">
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class=" pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">Бесплатно</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">ЯЩИК ПОД ЛАВКОЙ</p>
+                        </div>
+                    </span>
+                </label>
+                <label for="equipment-oven-fencing">
+                    <input class="calc-field__item" type="checkbox" id="equipment-oven-fencing" name="equipment" value="oven-fencing">
+                    <span class="pseudo-item pseud-item_type_equipment">
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class=" pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">2.500₽</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">ОГРАЖДЕНИЕ ПЕЧИ</p>
+                        </div>
+                    </span>
+                </label>
+                <label for="equipment-wardrobe">
+                    <input class="calc-field__item" type="checkbox" id="equipment-wardrobe" name="equipment" value="wardrobe">
+                    <span class="pseudo-item pseud-item_type_equipment">
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class="pseudo-item__cost-top-text_type_equipment pseudo-item__cost-top-text">7.000₽</p>
+                        </div>
+                        <img class="pseudo-item__image" src="images/2kvadro.png">
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">ШКАФ</p>
+                        </div>
+                    </span>
+                </label>
+
             </div>
 
             <!--фундамент-->
@@ -309,26 +354,24 @@
                 <label for="foundation-blocks">
                     <input class="calc-field__item" type="radio" id="foundation-blocks" name="foundation" value="blocks" checked>
                     <span class="pseudo-item pseudo-item_type_foundation">
-                        <div class="pseudo-item__cost-top">
-                            <p class="text__gradient pseudo-item__cost-top-text">Бесплатно</p>
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class="text__gradient pseudo-item__cost-top-text pseudo-item__cost-top-text_type_equipment">Бесплатно</p>
                         </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay">
-                            <p class="pseudo-item__title">БЛОКИ</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">Бесплатно</p>
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">БЛОКИ</p>
                         </div>
                     </span>
                 </label>
                 <label for="foundation-piles">
                     <input class="calc-field__item" type="radio" id="foundation-piles" name="foundation" value="piles">
                     <span class="pseudo-item pseudo-item_type_foundation">
-                        <div class="pseudo-item__cost-top">
-                            <p class="text__gradient pseudo-item__cost-top-text">35.000₽</p>
+                        <div class="pseudo-item__cost-top pseudo-item__cost-top_type_equipment">
+                            <p class="text__gradient pseudo-item__cost-top-text pseudo-item__cost-top-text_type_equipment">35.000₽</p>
                         </div>
                         <img class="pseudo-item__image" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay">
-                            <p class="pseudo-item__title">СВАИ</p>
-                            <p class="pseudo-item__cost pseudo-item__cost_remove">35.000₽</p>
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_equipment">
+                            <p class="pseudo-item__title pseudo-item__title_type_equipment">СВАИ</p>
                         </div>
                     </span>
                 </label>
@@ -421,65 +464,70 @@
         </form>
     </main>
 
-    <div class="popup popup_opened popup-checklist">
+    <div class="popup popup-checklist fonts_calc">
         <form name="popup-checklist" class="popup__container popup__container_type_form" method="post" novalidate>
             <h2 class="popup__title">Новое место</h2>
             <div class="popup__grid">
                 <p class="popup__row">Форма Бани</p>
-                <p class="popup__row">Бочка</p>
+                <p class="popup__row name_shape">Бочка</p>
                 <p class="popup__row"> </p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row"></p>
 
 
                 <p class="popup__row">Длина Бани</p>
-                <p class="popup__row">Бочка</p>
+                <p class="popup__row name_length">Бочка</p>
                 <p class="popup__row"> </p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row cost_length"></p>
 
                 <p class="popup__row">Вариант Установки</p>
-                <p class="popup__row">Бочка</p>
+                <p class="popup__row name_installation">Бочка</p>
                 <p class="popup__row"></p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row cost_installation"></p>
 
                 <p class="popup__row">Вариант Входа</p>
-                <p class="popup__row">Бочка</p>
+                <p class="popup__row name_entry">Бочка</p>
                 <p class="popup__row"></p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row cost_entry"></p>
 
                 <p class="popup__row">Вариант Топки Печи</p>
-                <p class="popup__row">Бочка</p>
+                <p class="popup__row name_oven-type">Бочка</p>
                 <p class="popup__row"></p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row cost_oven-type"></p>
 
                 <p class="popup__row">Вариант Печи</p>
-                <p class="popup__row">Бочка</p>
+                <p class="popup__row name_oven">Бочка</p>
                 <p class="popup__row"></p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row cost_oven"></p>
 
                 <p class="popup__row">Фундамент Бани</p>
-                <p class="popup__row">Бочка</p>
+                <p class="popup__row name_foundation">Бочка</p>
                 <p class="popup__row"></p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row cost_foundation"></p>
 
                 <p class="popup__row">Цвет Корпуса</p>
                 <p class="popup__row">Бочка</p>
                 <p class="popup__row"></p>
-                <p class="popup__row">+0</p>
+                <p class="popup__row"></p>
 
                 <p class="popup__row">Цвет Кровли</p>
                 <p class="popup__row">Бочка</p>
                 <p class="popup__row"></p>
-                <p class="popup__row">+0</p>
-            </div>
+                <p class="popup__row"></p>
 
+                <div class="popup__equipment-grid">
+
+                </div>
+                <p class="popup__row total_equipment_cost">0</p>
+            </div>
+            <p class="total_cost"></p>
             <fieldset class="popup__input-container">
-                <input class="popup__item" id="add-card-name" type="text" name="add-card-name" required minlength="2" maxlength="30" placeholder="Название места">
+
+                <input class="popup__item" id="add-card-name" type="tel" name="add-card-name" required minlength="11" maxlength="11" placeholder="Номер телефона">
                 <span class="popup__item-error add-card-name-error"></span>
-                <input class="popup__item" id="add-card-url" name="add-card-url" type="url" required placeholder="Ссылка на сайт">
-                <span class="popup__item-error add-card-url-error"></span>
+                <input class="popup__item" id="add-card-url" name="add-card-url" type="text" required placeholder="Имя Фамлия">
             </fieldset>
-            <button class="popup__submit-btn" type="submit">Создать</button>
-            <button class="popup__close-btn" type="button"></button>
+            <button class="popup__submit-btn" type="submit">Отправить</button>
+            <button class="popup__close-btn" type="button"><img src="images/icon-close.svg" style="object-position: center; width: 100%; height: 100%"></button>
         </form>
     </div>
 

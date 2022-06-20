@@ -1,4 +1,6 @@
 @import url(../fonts/fonts.css);
+@import url(../blocks/fonts-calc/fonts-calc.css);
+@import url(../blocks/text/__gradient/text__gradient.css);
 
 @import url(../blocks/calc/calc.css);
 @import url(../blocks/calc/__title/calc__title.css);
@@ -33,13 +35,17 @@
 @import url(../blocks/pseudo-item/__overlay/pseudo-item__overlay.css);
 @import url(../blocks/pseudo-item/__overlay/_theme/pseudo-item__overlay_theme_white.css);
 @import url(../blocks/pseudo-item/__overlay/_type/pseudo-item__overlay_type_installation.css);
+@import url(../blocks/pseudo-item/__overlay/_type/pseudo-item__overlay_type_equipment.css);
 @import url(../blocks/pseudo-item/__title/pseudo-item__title.css);
+@import url(../blocks/pseudo-item/__title/_type/pseudo-item__title_type_equipment.css);
 @import url(../blocks/pseudo-item/__title/_theme/pseudo-item__title_theme_white.css);
 @import url(../blocks/pseudo-item/__cost/pseudo-item__cost.css);
 @import url(../blocks/pseudo-item/__cost/_theme/pseudo-item__cost_theme_white.css);
 @import url(../blocks/pseudo-item/__cost/_remove/pseudo-item__cost_remove.css);
 @import url(../blocks/pseudo-item/__cost-top/pseudo-item__cost-top.css);
+@import url(../blocks/pseudo-item/__cost-top/_type_equipment/pseudo-item__cost-top_type_equipment.css);
 @import url(../blocks/pseudo-item/__cost-top-text/pseudo-item__cost-top-text.css);
+@import url(../blocks/pseudo-item/__cost-top-text/_type_equipment/pseudo-item__cost-top-text_type_equipment.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
@@ -58,5 +64,6 @@
 @import url(../blocks/popup/__image/popup__image.css);
 @import url(../blocks/popup/__grid/popup__grid.css);
 @import url(../blocks/popup/__row/popup__row.css);
+@import url(../blocks/popup/__equipment-grid/popup__equipment-grid.css);
+@import url(../blocks/popup/__equipment-row/popup__equipment-row.css);
 
-@import url(../blocks/text/__gradient/text__gradient.css);

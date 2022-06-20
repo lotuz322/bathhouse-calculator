@@ -5,8 +5,8 @@
   top: -42px;
   width: 32px;
   height: 32px;
-  background: no-repeat center / 100% 100% url(../../../images/icon-close.svg);
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
   transition: opacity .5s ease-in-out;
 }
 

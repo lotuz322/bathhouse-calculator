@@ -1,0 +1,7 @@
+.popup__equipment-grid {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+}
