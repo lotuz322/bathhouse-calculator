@@ -8,7 +8,7 @@
 </head>
 <body style="margin: 0">
     <main>
-        <form class="calc">
+        <form class="calc" name="calc">
             <h2 class="calc__title text__gradient">РАССЧИТАЙТЕ СТОИМОСТЬ ВАШЕЙ БАНИ!</h2>
             <!--форма-->
             <h3 class="calc__subtitle text__gradient calc-field__title_theme_white ">ФОРМА БАНИ</h3>
@@ -16,17 +16,17 @@
                 <label for="shape-circle">
                     <input class="calc-field__item" type="radio" id="shape-circle" name="shape" value="circle" checked>
                     <span class="pseudo-item pseudo-item_theme_white pseudo-item_type_shape">
-                        <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
+                        <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/circle-6.png">
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_shape pseudo-item__overlay_theme_white">
                             <p class="pseudo-item__title text__gradient">КРУГЛАЯ БАНЯ БОЧКА</p>
                         </div>
                     </span>
                 </label>
-                <label for="shape-square">
-                    <input class="calc-field__item" type="radio" id="shape-square" name="shape" value="square">
+                <label for="shape-kvadro">
+                    <input class="calc-field__item" type="radio" id="shape-kvadro" name="shape" value="kvadro">
                     <span class="pseudo-item pseudo-item_theme_white pseudo-item_type_shape">
-                        <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/2kvadro.png">
-                        <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
+                        <img class="pseudo-item__image pseudo-item__image_theme_white" src="images/kvadro-6.png">
+                        <div class="pseudo-item__overlay pseudo-item__overlay_type_shape pseudo-item__overlay_theme_white">
                             <p class="pseudo-item__title text__gradient">КВАДРО БАНЯ</p>
                         </div>
                     </span>
@@ -39,7 +39,7 @@
                 <label for="length-2">
                     <input class="calc-field__item" type="radio" id="length-2" name="length" value="2" checked>
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                        <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
+                        <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/circle-2.png">
                         <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                             <p class="pseudo-item__title text__gradient">2 метра</p>
                             <p class="pseudo-item__cost pseudo-item__cost_theme_white">160.000₽</p>
@@ -49,7 +49,7 @@
                 <label for="length-3">
                     <input class="calc-field__item" type="radio" id="length-3" name="length" value="3">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
+                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/circle-3.png">
                     <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                         <p class="pseudo-item__title text__gradient">3 метра</p>
                         <p class="pseudo-item__cost pseudo-item__cost_theme_white">235.000₽</p>
@@ -59,7 +59,7 @@
                 <label for="length-4">
                     <input class="calc-field__item" type="radio" id="length-4" name="length" value="4">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
+                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/circle-4.png">
                     <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                         <p class="pseudo-item__title text__gradient">4 метра</p>
                         <p class="pseudo-item__cost pseudo-item__cost_theme_white">260.000₽</p>
@@ -69,7 +69,7 @@
                 <label for="length-5">
                     <input class="calc-field__item" type="radio" id="length-5" name="length" value="5">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
+                    <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/circle-5.png">
                     <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                         <p class="pseudo-item__title text__gradient">5 метров</p>
                         <p class="pseudo-item__cost pseudo-item__cost_theme_white">310.000₽</p>
@@ -79,7 +79,7 @@
                 <label for="length-6">
                     <input class="calc-field__item" type="radio" id="length-6" name="length" value="6">
                     <span class="pseudo-item pseudo-item_type_length pseudo-item_theme_white">
-                        <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/2kvadro.png">
+                        <img class="pseudo-item__image pseudo-item__image_type_length pseudo-item__image_theme_white" src="images/circle-6.png">
                         <div class="pseudo-item__overlay pseudo-item__overlay_theme_white">
                             <p class="pseudo-item__title text__gradient">6 метров</p>
                             <p class="pseudo-item__cost pseudo-item__cost_theme_white">320.000₽</p>
@@ -420,5 +420,69 @@
             <button class="calc-field__submit" type="submit">РАССЧИТАТЬ СТОИМОСТЬ!</button>
         </form>
     </main>
+
+    <div class="popup popup_opened popup-checklist">
+        <form name="popup-checklist" class="popup__container popup__container_type_form" method="post" novalidate>
+            <h2 class="popup__title">Новое место</h2>
+            <div class="popup__grid">
+                <p class="popup__row">Форма Бани</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"> </p>
+                <p class="popup__row">+0</p>
+
+
+                <p class="popup__row">Длина Бани</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"> </p>
+                <p class="popup__row">+0</p>
+
+                <p class="popup__row">Вариант Установки</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"></p>
+                <p class="popup__row">+0</p>
+
+                <p class="popup__row">Вариант Входа</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"></p>
+                <p class="popup__row">+0</p>
+
+                <p class="popup__row">Вариант Топки Печи</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"></p>
+                <p class="popup__row">+0</p>
+
+                <p class="popup__row">Вариант Печи</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"></p>
+                <p class="popup__row">+0</p>
+
+                <p class="popup__row">Фундамент Бани</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"></p>
+                <p class="popup__row">+0</p>
+
+                <p class="popup__row">Цвет Корпуса</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"></p>
+                <p class="popup__row">+0</p>
+
+                <p class="popup__row">Цвет Кровли</p>
+                <p class="popup__row">Бочка</p>
+                <p class="popup__row"></p>
+                <p class="popup__row">+0</p>
+            </div>
+
+            <fieldset class="popup__input-container">
+                <input class="popup__item" id="add-card-name" type="text" name="add-card-name" required minlength="2" maxlength="30" placeholder="Название места">
+                <span class="popup__item-error add-card-name-error"></span>
+                <input class="popup__item" id="add-card-url" name="add-card-url" type="url" required placeholder="Ссылка на сайт">
+                <span class="popup__item-error add-card-url-error"></span>
+            </fieldset>
+            <button class="popup__submit-btn" type="submit">Создать</button>
+            <button class="popup__close-btn" type="button"></button>
+        </form>
+    </div>
+
+    <script src="pages/calc.js"></script>
 </body>
 </html>

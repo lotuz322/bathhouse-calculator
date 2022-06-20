@@ -2,16 +2,20 @@
     position: static;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 10px 7px 40px rgba(0, 0, 0, 0.25);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {
     .pseudo-item__overlay_theme_white {
         position: static;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
         box-shadow: none;
         height: 100%;
+    }
+
+    .pseudo-item__overlay_type_shape {
+        height: 27px;
     }
 }

@@ -2,3 +2,9 @@
     height: calc(100% - 60px);
     object-fit: contain;
 }
+
+@media screen and (max-width: 1000px) {
+    .pseudo-item__image_theme_white {
+        height: 100px;
+    }
+}

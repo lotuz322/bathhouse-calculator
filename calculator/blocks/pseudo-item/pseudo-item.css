@@ -20,6 +20,7 @@
     content: '';
     transition: .5s;
     opacity: 0;
+    border-radius: 30px;
 }
 
 .pseudo-item:hover:before {
@@ -28,6 +29,10 @@
 
 @media screen and (max-width: 1000px) {
     .pseudo-item {
+        border-radius: 15px;
+    }
+
+    .pseudo-item:before {
         border-radius: 15px;
     }
 }

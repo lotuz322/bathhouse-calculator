@@ -1,0 +1,18 @@
+.popup__row {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.popup__row:nth-child(4n + 2) {
+    padding-left: 10px;
+    margin-right: 16px;
+}
+.popup__row:nth-child(4n + 3) {
+    border-left: 1px solid #D8D8D8;
+}
+
+.popup__row:nth-child(4n) {
+    margin-left: 16px;
+}
