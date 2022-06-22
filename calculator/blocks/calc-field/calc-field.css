@@ -9,7 +9,8 @@
 @media screen and (max-width: 1000px){
     .calc-field {
         max-width: 640px;
-        margin: 0 20px;
+        padding: 0 20px;
+        box-sizing: ;
         gap: 18px;
     }
 }
